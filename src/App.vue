@@ -6,6 +6,14 @@
       <router-view />
     </v-main>
     </v-container>
+    <v-footer padless>
+      <v-col
+        class="text-center"
+        cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong>Wisata book, Adrian Fathur S</strong>
+      </v-col>
+    </v-footer>
   </v-app>
 </template>
 
