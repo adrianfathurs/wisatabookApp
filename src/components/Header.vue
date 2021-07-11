@@ -1,9 +1,8 @@
 <template>
- 
     <v-row >
       <v-col lg="6" md="6" class="text-center">
         <v-avatar
-          color="primary"
+          color="#FFFACD"
           size="250px"
         >
           <v-img
