@@ -74,9 +74,8 @@
 <script>
 import {mapGetters} from "vuex"
 export default {
-  name: "HelloWorld",
+  name: "Header",
   data: () => ({
-   
   }),
   computed:{
     ...mapGetters({

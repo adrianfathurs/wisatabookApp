@@ -62,6 +62,7 @@
 <script>
 import {mapGetters} from "vuex"
 export default {
+  name:"Content",
   data() {
     return {
       dialog:false,

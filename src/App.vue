@@ -33,7 +33,6 @@ export default {
   }),
   methods: {
     modeApp(value) {
-      console.log("ini values:", value);
       this.darkmode = value;
       this.$vuetify.theme.dark = value;
     },

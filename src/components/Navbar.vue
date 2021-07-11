@@ -9,6 +9,7 @@
 import DarkModeSwitch from "vue-dark-mode-switch";
 import "vue-dark-mode-switch/dist/vue-dark-mode-switch.css";
 export default {
+  name:"Navbar",
   data() {
     return {
       switch1: false,
